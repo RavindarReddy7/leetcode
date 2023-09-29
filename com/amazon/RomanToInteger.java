@@ -25,7 +25,9 @@ public class RomanToInteger {
 		map.put('V', 5);
 		map.put('I', 1);
 		
+		
 		int num = map.get(str.charAt(str.length()-1));
+		
 		
 		for(int i= str.length()-2;i>= 0;i--) {
 			System.out.println( str.charAt(i)+" i");

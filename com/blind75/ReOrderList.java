@@ -1,7 +1,5 @@
 package com.blind75;
 
-import com.linkedlist.ListNode;
-
 public class ReOrderList {
 
 	public static void main(String[] args) {

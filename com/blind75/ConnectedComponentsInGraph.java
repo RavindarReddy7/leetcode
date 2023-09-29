@@ -33,14 +33,14 @@ public class ConnectedComponentsInGraph {
 	            list[edges[i][0]].add(edges[i][1]);
 	            
 
-			    System.out.print("list "+
-			    Arrays.asList(list));
+			   // System.out.print("list "+
+			   // Arrays.asList(list));
 			    
 	            list[edges[i][1]].add(edges[i][0]);
 	            
 
-			    System.out.print("list "+
-			    Arrays.asList(list));
+			   // System.out.print("list "+
+			    //Arrays.asList(list));
 	            
 	        }
 	        

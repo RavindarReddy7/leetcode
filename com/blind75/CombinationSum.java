@@ -6,9 +6,9 @@ import java.util.List;
 public class CombinationSum {
 
 	public static void main(String[] args) {
-		int[] nums = { 2, 3, 5 };
+		int[] nums = { 2, 3, 6,7 };
 
-		List<List<Integer>> res = combination(nums, 8);
+		List<List<Integer>> res = combination(nums, 7);
 
 		System.out.println(res);
 
